@@ -2,8 +2,8 @@ import streamlit
 import datetime
 import pandas as pd
 
-streamlit.title('Days left until Holiday')
-
+streamlit.title('Holiday Countdown!!')
+streamlit.text('Days left: ')
 today = datetime.date.today()
 
 #print(today)

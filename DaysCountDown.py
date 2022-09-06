@@ -18,4 +18,4 @@ streamlit.header(daysleft)
 from PIL import Image
 image = Image.open('Thailand.jpg')
 
-straemlit.image(image, caption='Sunrise by the mountains')
+streamlit.image(image, caption='Sunrise by the mountains')

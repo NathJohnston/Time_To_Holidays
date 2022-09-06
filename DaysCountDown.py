@@ -16,6 +16,6 @@ daysleft ='Days left: ' + str(remaining)
 streamlit.header(daysleft)
 
 from PIL import Image
-image = Image.open('sunrise.jpg')
+image = Image.open('Thailand.jpg')
 
 st.image(image, caption='Sunrise by the mountains')

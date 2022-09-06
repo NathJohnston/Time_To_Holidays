@@ -15,7 +15,10 @@ remaining = (dt1-dt).days
 from PIL import Image
 image = Image.open('Thailand.jpg')
 
-streamlit.image(image, caption='Thai Sunrise')
+streamlit.image(
+  image, 
+  width=400,
+  caption='Thai Sunrise')
 
 daysleft ='Days left: ' + str(remaining)
 streamlit.header(daysleft)

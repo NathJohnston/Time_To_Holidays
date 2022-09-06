@@ -12,10 +12,10 @@ dt1 = pd.to_datetime('2022/09/15', format='%Y/%m/%d')
 
 remaining = (dt1-dt).days
 
-daysleft ='Days left: ' + str(remaining)
-streamlit.header(daysleft)
-
 from PIL import Image
 image = Image.open('Thailand.jpg')
 
 streamlit.image(image, caption='Sunrise by the mountains')
+
+daysleft ='Days left: ' + str(remaining)
+streamlit.header(daysleft)

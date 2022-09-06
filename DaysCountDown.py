@@ -17,7 +17,7 @@ image = Image.open('Thailand.jpg')
 
 streamlit.image(
   image, 
-  width=1600,
+  width=800,
   caption='Thai Sunrise')
 
 daysleft ='Days left: ' + str(remaining)

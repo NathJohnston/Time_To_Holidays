@@ -14,3 +14,9 @@ remaining = (dt1-dt).days
 
 daysleft ='Days left: ' + str(remaining)
 streamlit.header(daysleft)
+
+streamlit.image(
+  df2[0],
+width=400,
+caption= Thailand
+)

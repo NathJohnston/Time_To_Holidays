@@ -20,5 +20,5 @@ streamlit.image(
   width=1200,
   caption='Thai Sunrise')
 
-daysleft ='Days left: ' + str(remaining) + ' :airplane:'
+daysleft =str(remaining) + ' Days left until  :airplane:'
 streamlit.header(daysleft)

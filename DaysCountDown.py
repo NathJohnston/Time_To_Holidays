@@ -2,7 +2,7 @@ import streamlit
 import datetime
 import pandas as pd
 
-streamlit.title('Holiday Countdown!!')
+streamlit.title("Holiday Countdown!! :hourglass_flowing_sand:")
 #streamlit.text('Days left: ')
 today = datetime.date.today()
 
@@ -20,5 +20,5 @@ streamlit.image(
   width=1200,
   caption='Thai Sunrise')
 
-daysleft ='Days left: ' + str(remaining)
+daysleft ='Days left: ' + str(remaining) + ' :airplane:'
 streamlit.header(daysleft)
